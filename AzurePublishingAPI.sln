@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzurePublishingAPI", "AzurePublishingAPI.csproj", "{D0DEAAD2-1084-49BC-A246-B741916515A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAzurePublishing", "..\BlazorAzurePublishing\BlazorAzurePublishing.csproj", "{BED574AF-E6A6-43B7-8906-D27772609E6E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0DEAAD2-1084-49BC-A246-B741916515A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0DEAAD2-1084-49BC-A246-B741916515A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0DEAAD2-1084-49BC-A246-B741916515A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0DEAAD2-1084-49BC-A246-B741916515A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BED574AF-E6A6-43B7-8906-D27772609E6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BED574AF-E6A6-43B7-8906-D27772609E6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BED574AF-E6A6-43B7-8906-D27772609E6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BED574AF-E6A6-43B7-8906-D27772609E6E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
