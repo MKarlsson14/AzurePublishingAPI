@@ -1,0 +1,36 @@
+﻿@inject IAPIService apiService
+
+@page "/"
+
+
+<PageTitle>Home</PageTitle>
+
+@if(items.Count() > 0)
+{
+    <h2>Lista från databas</h2>
+    <br/>
+    foreach(var item in items)
+    {
+        <p>- @item.Name</p>
+        <br/>
+    }
+}
+else
+{
+    <p>Ingen data hämtades</p>
+}
+
+   
+
+
+@code{
+    private List<Item>? items = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (await apiService.GetAllFromApiAsync<Item>() != null)
+        {
+            items = await apiService.GetAllFromApiAsync<Item>();
+        }       
+    }
+}
